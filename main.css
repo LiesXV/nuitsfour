@@ -1,0 +1,91 @@
+@font-face {
+	font-family: 'Cormorant';
+	src: url('fonts/CormorantGaramond-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Extralight';
+	src: url('fonts/Poppins-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PoppinsR';
+	src: url('fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+body {
+	background-color: #E6E6E6;
+}
+
+h1 {
+	font-family: 'Cormorant' , sans-serif;
+	padding-right: 6%;
+	padding-left: 6%;
+	font-size: 90px;
+	font-weight: 300;
+	margin-bottom: -75px;
+}
+
+.arrow {
+	margin-top: 4%;
+	font-family: 'PoppinsR', sans-serif;
+	text-align: right;
+}
+
+.festival {
+	font-family: 'Cormorant' , sans-serif;
+	padding-right: 6%;
+	padding-left: 6%;
+	font-size: 90px;
+	font-weight: 300;
+	margin-bottom: -75px;
+}
+
+.wordcloud {
+	margin-top: 6%;
+	padding-left: 4%;
+	padding-top: 4%;
+}
+
+.line {
+	padding-left: 3%;
+	padding-right: 3%;
+	border-bottom: 2px solid black;
+}
+
+.right {
+	text-align: right;
+	margin-top: 15%;
+}
+
+.disciplinaire {
+	font-family: 'Extralight' , sans-serif;
+}
+
+hr {
+	margin: 37px 0;
+	border: 1px solid black;
+}
+
+.sarcheologique {
+	width: 100vw;
+	padding: 6%;
+	text-align: justify;
+	display: flex;
+	align-items: center;
+}
+
+.site {
+	display: flex;	
+	align-items: center;
+	font-family: 'Extralight', sans-serif;
+	font-size: 92.39;
+	align-items: center;
+}
+
+.arch {
+	display: flex;	
+	align-items: center;
+	font-family: 'Cormorant', sans-serif;
+	font-size: 104;
+}
