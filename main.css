@@ -1,6 +1,11 @@
 @font-face {
-	font-family: 'Cormorant';
+	font-family: 'CormorantL';
 	src: url('fonts/CormorantGaramond-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'CormorantLI';
+	src: url('fonts\\static\\Cormorant-LightItalic.ttf') format('truetype');
 }
 
 @font-face {
@@ -9,57 +14,211 @@
 }
 
 @font-face {
+	font-family: 'Plight';
+	src: url('fonts/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
 	font-family: 'PoppinsR';
 	src: url('fonts/Poppins-Regular.ttf') format('truetype');
 }
 
-body {
-	background-color: #E6E6E6;
+@font-face {
+	font-family: 'PoppinsB';
+	src: url('fonts/Poppins-Bold.ttf') format('truetype');
 }
 
-h1 {
-	font-family: 'Cormorant' , sans-serif;
-	padding-right: 6%;
-	padding-left: 6%;
-	font-size: 90px;
-	font-weight: 300;
-	margin-bottom: -75px;
-}
-
-.arrow {
-	margin-top: 4%;
-	font-family: 'PoppinsR', sans-serif;
-	text-align: right;
-}
-
-.festival {
-	font-family: 'Cormorant' , sans-serif;
-	padding-right: 6%;
-	padding-left: 6%;
-	font-size: 90px;
-	font-weight: 300;
-	margin-bottom: -75px;
-}
-
-.wordcloud {
-	margin-top: 6%;
-	padding-left: 4%;
-	padding-top: 4%;
-}
-
-.line {
-	padding-left: 3%;
-	padding-right: 3%;
-	border-bottom: 2px solid black;
+@font-face {
+	font-family: 'PoppinsR';
+	src: url('fonts/Poppins-Regular.ttf') format('truetype');
 }
 
 .right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	float: right;
+	width: 91.3vw;
+	height: 60vh;
+}
+
+body {
+	background-color: #E6E6E6;
+	overflow-x: hidden;
+}
+
+p {
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+	padding-right: 6%;
+	padding-left: 6%;
+	font-size: 90px;
+	font-weight: 300;
+}
+
+.arrow {
+	font-family: 'PoppinsR', sans-serif;
 	text-align: right;
-	margin-top: 15%;
+	line-height: 7.5vh;
+	height: 15vh;
+}
+
+.blockarrow {
+	height: 60vh;
+}
+
+.wordcloud {
+	padding-left: 4%;
+	height: 38vh;
+}
+
+.imgs {
+	height: 100vh;
+}
+
+.bonjour {
+	align-items: center;
+}
+
+.sommes {
+	font-family: 'CormorantLI', sans-serif;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.main {
+	font-size: 99px;
+	height: 100vh;
+	line-height: 80px;
+}
+
+.inside {
+	padding-left: 4%;
+	width: 40%;
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.inside2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	float: right;
+	width: 91.3vw;
+	height: 38vh;
+}
+
+.titre_haut {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	position: relative;
+	line-height: 1em ;
+}
+
+.festival {
+	font-family: 'CormorantLI' , sans-serif;
+	font-size: 99px;
+	font-weight: 300;
+}
+
+.festival::after {
+	content: "";
+	position: absolute;
+	bottom: 17px;
+	left: 0;
+	width: 94%;
+	height: 1px;
+	background-color: black;
+}
+
+.historique {
+	font-family: 'CormorantLI' , sans-serif;
+	font-size: 99px;
+	font-weight: 300;
+}
+
+.historique::after {
+	content: "";
+	position: absolute;
+	bottom: 17px;
+	left: 0;
+	width: 94%;
+	height: 1px;
+	background-color: black;
+}
+
+.multi {
+	font-family: 'CormorantL', sans-serif;
+	font-size: 99px;
+}
+
+.multi::after {
+	content: "";
+	position: absolute;
+	bottom: 17px;
+	left: 0;
+	width: 94%;
+	height: 1px;
+	background-color: black;
+}
+
+.lieu {
+	font-family: 'CormorantL', sans-serif;
+	font-size: 99px;
+}
+
+.lieu::after {
+	content: "";
+	position: absolute;
+	bottom: 17px;
+	left: 0;
+	width: 94%;
+	height: 1px;
+	background-color: black;
+}
+
+.redc {
+	position: absolute;
+	bottom: 140px;
+	left: 180px;
+	height: 132px;
 }
 
 .disciplinaire {
 	font-family: 'Extralight' , sans-serif;
+	font-size: 91.24px;
+	font-weight: 100;
+}
+
+.disciplinaire::after {
+	content: "";
+	position: absolute;
+	bottom: 13px;
+	left: 0;
+	width: 94%;
+	height: 1px;
+	background-color: black;
+}
+
+.insideq {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	float: right;
+	width: 18%;
+	height: 38vh;
+}
+
+.quote1 {
+	font-family: 'PoppinsR';
+	font-size: 16px;
 }
 
 hr {
@@ -67,25 +226,124 @@ hr {
 	border: 1px solid black;
 }
 
-.sarcheologique {
-	width: 100vw;
-	padding: 6%;
-	text-align: justify;
+.nous {
+	font-family: 'CormorantL', sans-serif;
+	justify-content: center;
+}
+
+.blockarch {
+	/* background-color: blue; */
+	padding-right: 4%;
+	padding-left: 4%;
+	height: 70vh;
+}
+
+.sarch {
+	/* background-color: red; */
 	display: flex;
+	justify-content: center;
 	align-items: center;
+	height: 20vh;
 }
 
 .site {
-	display: flex;	
-	align-items: center;
 	font-family: 'Extralight', sans-serif;
-	font-size: 92.39;
+	font-size: 92.39px;
+	display: flex;
+	justify-content: center;
 	align-items: center;
+	height: 100vh;
 }
 
 .arch {
-	display: flex;	
+	font-family: 'CormorantL', sans-serif;
+	font-size: 104px;
+	display: flex;
+	justify-content: center;
 	align-items: center;
-	font-family: 'Cormorant', sans-serif;
-	font-size: 104;
+	height: 100vh;
+}
+
+.photos {
+	/* background-color: green; */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+}
+
+.tgrcolumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 30vw;
+	font-family: 'PLight';
+	font-weight: 16px;
+}
+
+.row3 {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	padding: 4%;
+}
+
+.r3title {
+	justify-content: left;
+	line-height: 80px;
+	height: 42%;
+	width: 48%;
+}
+
+.gallo {
+	font-family: 'CormorantLI' , sans-serif;
+	font-size: 99px;
+	font-weight: 300;
+}
+
+.romain {
+	font-family: 'Extralight' , sans-serif;
+	font-size: 91.24px;
+	font-weight: 100;
+}
+
+.r3img {
+	position: absolute;
+	right: 0px;
+	top: 2100px;
+	height: 360px;
+
+}
+
+.r3img2 {
+	position: absolute;
+	left: -30px;
+	top: 2200px;
+	height: 720px;
+}
+
+.r3txt {
+	width: 90%;
+	height: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 6%;
+	padding-left: 8%;
+	padding-right: 8%;
+	font-family: 'PoppinsR';
+}
+
+.p1 {
+	width: 40%;
+	height: 100%;
+	margin-right: -5%;
+}
+
+.p2 {
+	width: 40%;
+	height: 100%;
+	margin-left: -5%;
 }
